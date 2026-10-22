@@ -2,7 +2,7 @@
 
 Bem-vindo(a) ao repositório do meu portfólio pessoal. Este projeto apresenta minha trajetória acadêmica e profissional em Ciência da Computação e Engenharia de Software, reunindo meus principais projetos, competências técnicas e formas de contato.
 
-**Live Demo:** [https://beatrizamc.github.io](https://beatrizamc.github.io)
+**Live Demo:** https://beatrizamc.github.io/dev-beatrizamc-portfolio/
 
 ---
 
