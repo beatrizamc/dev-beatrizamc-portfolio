@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beatriz — Software Developer </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <span class="pill-name"><i class="dot"></i> Online </span>
+      <button id="theme-toggle" class="theme-toggle-btn" aria-label="Alternar tema">☾</button>
+    </header>
+ 
+    <section class="hero">
+      <div class="hero-text">
+        <span class="tag">Ciência da Computação • Engenharia de Software</span>
+        <h1>Beatriz Carneiro</h1>
+        <p class="role">Software Developer</p>
+        <p class="bio">Desenvolvo sistemas de elevado desempenho e realizo análise de dados para transformar informações estratégicas em aplicações robustas e prontas para produção. Bacharelando em Ciência da Computação com experiência em liderança de projetos.</p>
+        <div class="actions">
+          <a class="btn" href="Beatriz_Carneiro_Curriculo.pdf">Baixar currículo</a>
+          <a class="icon-btn" href="https://www.linkedin.com/in/beatrizamcarneiro/" aria-label="LinkedIn">in</a>
+          <a class="icon-btn" href="https://github.com/beatrizamc" aria-label="GitHub">⌥</a>
+        </div>
+      </div>
+      <div class="avatar-box">
+        <img class="avatar" src="port.jpg" alt="Foto de perfil">
+        <br>
+        <span class="location-tag">BASED IN BRASILIA BR</span>
+      </div>
+    </section>
+
+   <h2 class="section-title">Meus projetos</h2>
+    <section class="projects-grid">
+      <article class="project-card-small">
+        <div class="preview-mini" style="--c1:#1b1a4d;--c2:#2a2a7a"></div>
+        <div class="card-content">
+          <h3>UX UI Concepts</h3>
+          <p>Site acadêmico incluindo os principais conceitos de Design de Interfaces.</p>
+          <a class="link" href="https://beatrizamc.github.io/ui-ux-concepts/" target="_blank" rel="noopener noreferrer">Ver projeto &rarr;</a>
+        </div>
+      </article>
+
+      <article class="project-card-small">
+        <div class="preview-mini" style="--c1:#2d1b4e;--c2:#4a2a7a"></div>
+        <div class="card-content">
+          <h3>Projeto 2</h3>
+          <p>Descrição curta do seu segundo projeto em destaque.</p>
+          <a class="link" href="#">Ver projeto &rarr;</a>
+        </div>
+      </article>
+
+      <article class="project-card-small">
+        <div class="preview-mini" style="--c1:#1b3d35;--c2:#2a7a63"></div>
+        <div class="card-content">
+          <h3>Projeto 3</h3>
+          <p>Descrição curta do seu terceiro projeto em destaque.</p>
+          <a class="link" href="#">Ver projeto &rarr;</a>
+        </div>
+      </article>
+    </section>
+
+    <h2 class="section-title">Competências técnicas</h2>
+    <section class="stack">
+      <article class="card">
+        <h3> Software &amp; Web</h3>
+        <ul><li>React</li><li>JavaScript</li><li>CSS3</li><li>HTML5</li><li>Python</li><li>Java</li></ul>
+      </article>
+      <article class="card">
+        <h3>Ferramentas e Bancos de Dados</h3>
+        <ul><li>Git</li><li>GitHub Flow</li><li>PostgreSQL</li></ul>
+      </article>
+      <article class="card">
+        <h3>Dados &amp; BI</h3>
+        <ul><li>Power BI</li><li>Integração com IA</li><li>Mapeamento de processos</li><li>Análise de dados</li></ul>
+      </article>
+    </section>
+ 
+    <section class="contact">
+      <h2 class="section-title">Vamos trabalhar juntos</h2>
+      <p class="contact-pill"><a href="mailto:beatrizamaraleng@gmail.com">beatrizamaraleng@gmail.com</a> · Brasília, DF</p>
+      <form id="contact-form" novalidate>
+        <input type="text" name="name" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <textarea name="message" rows="5" placeholder="Descreva o projeto ou oportunidade" required></textarea>
+        <button class="btn" type="submit">Enviar mensagem</button>
+        <p id="form-status" role="status"></p>
+      </form>
+    </section>
+ 
+    <footer>© 2026 Beatriz AC. Todos os direitos reservados.</footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
